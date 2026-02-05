@@ -1,4 +1,5 @@
 import { pokemons } from './bases/02-objects'
+import { charmander } from './bases/03-classes'
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
@@ -12,7 +13,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <a href="https://www.typescriptlang.org/" target="_blank">
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
-    <h1>Hello Vite!</h1>
+    <h1>${charmander.name}</h1>
   </div>
 `
 
