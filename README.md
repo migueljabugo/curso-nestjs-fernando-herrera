@@ -1,6 +1,8 @@
 # Curso de NestJs impartido por Fernando Herrera
-Comienzo con [este curso básico](https://www.youtube.com/playlist?list=PLCKuOXG0bPi2DJQIRNwOIUJ_vO3l5s1b-), pero al terminarlo demasiado pronto, compré y comenzé [este otro](https://www.udemy.com/share/106Osu3@dWlGeM2OBNGsYlCSB2ua9CrwM6BPyvVL4TOdMYQwT22DwTaulzNBssmUopsYu4Kt/).
+Comienzo con [este curso básico](https://www.youtube.com/playlist?list=PLCKuOXG0bPi2DJQIRNwOIUJ_vO3l5s1b-) de tan solo 7 clases, pero al terminarlo demasiado pronto, compré y comenzé [este otro](https://www.udemy.com/share/106Osu3@dWlGeM2OBNGsYlCSB2ua9CrwM6BPyvVL4TOdMYQwT22DwTaulzNBssmUopsYu4Kt/).
 
+# [Nest - Introducción](https://www.youtube.com/playlist?list=PLCKuOXG0bPi2DJQIRNwOIUJ_vO3l5s1b-)
+Breve introducción a NextJs
 
 # [Next: Desarrollo backend escalabe con Node](https://www.udemy.com/share/106Osu3@dWlGeM2OBNGsYlCSB2ua9CrwM6BPyvVL4TOdMYQwT22DwTaulzNBssmUopsYu4Kt/)
 Nest es un framework de node extensible, versátil y progresivo, el cual nos ofrece la columna vertebral de todo tipo de aplicaciones del lado del servidor. Con Nest tendremos el poder de crear backend servers siguiendo las buenas prácticas recomendadas por el equipo de Nest y el mismo Kamil Mysliwiec (autor de Nest)
