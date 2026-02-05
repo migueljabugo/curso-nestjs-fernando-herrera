@@ -1,6 +1,6 @@
 export class Todo {
 
-    id: Number;
+    id: number;
     description: string;
     done: boolean;
 
