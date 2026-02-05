@@ -1,7 +1,7 @@
+import { bulbasaur } from './bases/02-objects'
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
-import { name, age } from './bases/01-types'
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -12,7 +12,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <a href="https://www.typescriptlang.org/" target="_blank">
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
-    <h1>Hello ${name}! ${age}</h1>
+    <h1>Hello ${bulbasaur.name}</h1>
   </div>
 `
 
