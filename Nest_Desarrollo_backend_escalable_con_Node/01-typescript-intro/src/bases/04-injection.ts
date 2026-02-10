@@ -1,11 +1,11 @@
 import type { Move, PokeAPIResponse } from '../interfaces/pokeapi-response.interface';
-import { PokeApiAdapter } from '../api/pokeApi.adapter';
+import { PokeApiAdapter, PokeApiFetchAdapter, type HttpAdapter } from '../api/pokeApi.adapter';
 
 export class Pokemon {
 
     public id: number;
     public name: string;
-    private readonly http: PokeApiAdapter;
+    private readonly http: HttpAdapter;
 
     get imageUrl(): string {
         return `https://pokemon.com/${ this.id }.jpg`;
@@ -15,7 +15,7 @@ export class Pokemon {
         id: number, 
         name: string,
         //Injección de dependencias
-        http: PokeApiAdapter
+        http: HttpAdapter
     ) {
 
         this.id = id;
@@ -42,9 +42,13 @@ export class Pokemon {
 }
 
 const pokeApi = new PokeApiAdapter();
+const pokeFetchApi = new PokeApiFetchAdapter();
+
 export const charmander = new Pokemon(4, 'Charmander', pokeApi);
+export const pika = new Pokemon(4, 'Charmander', pokeFetchApi);
 
 charmander.scream();
 charmander.speak();
 
 await charmander.getMoves();
+await pika.getMoves();
