@@ -4,7 +4,7 @@ Comienzo con [este curso básico](https://www.youtube.com/playlist?list=PLCKuOXG
 # [Nest - Introducción](https://www.youtube.com/playlist?list=PLCKuOXG0bPi2DJQIRNwOIUJ_vO3l5s1b-)
 Breve introducción a NestJs
 
-# [Next: Desarrollo backend escalabe con Node](https://www.udemy.com/share/106Osu3@dWlGeM2OBNGsYlCSB2ua9CrwM6BPyvVL4TOdMYQwT22DwTaulzNBssmUopsYu4Kt/)
+# [Nest: Desarrollo backend escalabe con Node](https://www.udemy.com/share/106Osu3@dWlGeM2OBNGsYlCSB2ua9CrwM6BPyvVL4TOdMYQwT22DwTaulzNBssmUopsYu4Kt/)
 Nest es un framework de node extensible, versátil y progresivo, el cual nos ofrece la columna vertebral de todo tipo de aplicaciones del lado del servidor. Con Nest tendremos el poder de crear backend servers siguiendo las buenas prácticas recomendadas por el equipo de Nest y el mismo Kamil Mysliwiec (autor de Nest)
 
 El curso parte de cero conocimiento de Nest y TypeScript y poco a poco vamos creando aplicaciones más complejas hasta desplegarlas en producción.
